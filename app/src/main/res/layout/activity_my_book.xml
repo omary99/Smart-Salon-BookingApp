@@ -8,12 +8,11 @@
     tools:context=".MyBookActivity"
     android:orientation="vertical">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ListView
+        android:id="@+id/myListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        android:padding="5dp" />
 
 
 </LinearLayout>

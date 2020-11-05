@@ -129,7 +129,7 @@
                                     android:textSize="16sp" />
 
                                 <Button
-                                    android:id="@+id/btn_hairstyle"
+                                    android:id="@+id/btn_store_followed"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />
@@ -173,7 +173,7 @@
                                     android:layout_marginBottom="5dp"/>
 
                                 <Button
-                                    android:id="@+id/btn_makeup"
+                                    android:id="@+id/btn_recently_viewed"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent"/>
@@ -210,7 +210,7 @@
                                     android:textSize="16sp" />
 
                                 <Button
-                                    android:id="@+id/btn_nails"
+                                    android:id="@+id/btn_address_management"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />
@@ -254,7 +254,7 @@
                                     android:layout_marginBottom="5dp"/>
 
                                 <Button
-                                    android:id="@+id/btn_massage"
+                                    android:id="@+id/btn_invite_friends"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent"/>
@@ -293,7 +293,7 @@
                                     android:textSize="16sp" />
 
                                 <Button
-                                    android:id="@+id/btn_scrub"
+                                    android:id="@+id/btn_service_center"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@android:color/transparent" />

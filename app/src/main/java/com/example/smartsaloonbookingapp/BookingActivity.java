@@ -34,7 +34,6 @@ public class BookingActivity extends AppCompatActivity implements AdapterView.On
 
     DatabaseReference databaseReference;
     String item;
-    Booking booking;
     String Price = "";
     String SalonService, ServiceStyle, ServicePrice, ServiceDate;
 
