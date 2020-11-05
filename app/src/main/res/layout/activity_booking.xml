@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/salon_background_one">
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/cart_three"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WELCOME SMART SALON BOOKING "
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_service"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Choose Salon Service"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_one"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <TextView
+                android:id="@+id/tv_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_two"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                //Text view
+
+                <TextView
+                    android:id="@+id/tv_"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_price"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                //Radio Button
+
+                <RadioButton
+                    android:id="@+id/radio_simple"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/Simple_price"/>
+
+                <RadioButton
+                    android:id="@+id/radio_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/normal_price"/>
+
+                <RadioButton
+                    android:id="@+id/radio_semiLuxury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/semi_luxury_price" />
+
+                <RadioButton
+                    android:id="@+id/radio_luxury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Luxury  35000/=" />
+
+                <RadioButton
+                    android:id="@+id/radio_veryLuxury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Very Luxury  50000/=" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edt_date"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter booking date"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_rounded"
+                android:text="SAVE NOW"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

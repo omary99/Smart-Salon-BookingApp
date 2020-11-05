@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089747602150",
+    "firebase_url": "https://smart-saloon-booking-app.firebaseio.com",
+    "project_id": "smart-saloon-booking-app",
+    "storage_bucket": "smart-saloon-booking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089747602150:android:429e7fff25f09f1f28c927",
+        "android_client_info": {
+          "package_name": "com.example.smartsaloonbookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089747602150-g27t1ob26js85tpd7leks6a9ps2jl1o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartsaloonbookingapp",
+            "certificate_hash": "a212fa9a8fa0923c0ad2e9e9d24d38872d5aea29"
+          }
+        },
+        {
+          "client_id": "1089747602150-g8n47np9gker4ihl1m7c73nc18pv3866.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaSKpVDdvokVbYrBBk5ynXSvJPOpnnn1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089747602150-g8n47np9gker4ihl1m7c73nc18pv3866.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Smart Salon Booking App</string>
+    <string name="choose_price">Choose Service Price</string>
+    <string name="Simple_price">Simple 10000/=</string>
+    <string name="normal_price">Normal 15000/=</string>
+    <string name="semi_luxury_price">Semi Luxury 25000/=</string>
+</resources>
